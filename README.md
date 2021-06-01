@@ -1,17 +1,16 @@
 # PostmanNewmanQA
 
-1.-Clone the repository.
+1. Clone the repository.
+2. Install the dependencies
 
-2.-Install the dependencies
+<code>npm install -g newman</code>
 
-npm install -g newman
+<code>npm install -g newman-reporter-htmlextra</code>
 
-npm install -g newman-reporter-htmlextra
+3. Execute all the tests
 
-3.-Execute all the tests
-npm run test
-
+<code>npm run test</code>
 
 If you want to run the tests without a report, you can simply run:
 
-npx newman run ./App/Tests/collection/Todoist.postman_collection.json -e ./App/Tests/envVariables/Todoist.postman_environment.json
+<code>npx newman run ./App/Tests/collection/Todoist.postman_collection.json -e ./App/Tests/envVariables/Todoist.postman_environment.json</code>
