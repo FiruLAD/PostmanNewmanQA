@@ -1,0 +1,5 @@
+/.idea/
+/node_modules/
+/Tests/reports/
+/package-lock.json
+/FWPostmanNewman.iml

@@ -1,0 +1,16 @@
+{
+  "name": "fwpostmannewman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "newman-reporter-htmlextra": "^1.21.0",
+    "newman": "^5.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test_all_report": "npx newman run './Tests/collection/Backend_Challenge.postman_collection.json' -e './Tests/envVariables/Sandbox.postman_environment.json' -r htmlextra --reporter-htmlextra-export './Tests/reports'"
+  },
+  "author": "Ricardo Castanon",
+  "license": "ISC"
+}
