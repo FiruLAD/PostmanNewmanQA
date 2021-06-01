@@ -1,6 +1,7 @@
 # PostmanNewmanQA
 
 1.-Clone the repository.
+
 2.-Install the dependencies
 
 npm install -g newman
